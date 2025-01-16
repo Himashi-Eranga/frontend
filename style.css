@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;/*decoration added to text*/
+    
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 12%;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0,0,0,0.8);
+    display: flex;
+    z-index: 100;
+    
+}
+
+.logo{
+    font-size: 25px;
+    color: white;
+    font-weight:600;
+}
