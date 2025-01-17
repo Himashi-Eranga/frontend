@@ -58,3 +58,20 @@ span{/*used to change the part of the text*/
 .navbar a.active{
     color: orangered;
 }
+
+.contact{
+    background-color: white;
+    padding: 10px;
+    border-radius: 6px;
+    color:black;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    /*transition: 0.3s ease;*/
+
+}
+
+.contact:hover{
+    background-color: orangered;
+    color: white;
+}
