@@ -26,3 +26,35 @@
     color: white;
     font-weight:600;
 }
+
+.logo:hover{/*select items when mouse over*/
+    color: crimson;
+    transform: scale(1.1);/*increase or decrease the size of an element*/
+    
+    
+    
+}
+
+span{/*used to change the part of the text*/
+    color: orangered;
+}
+
+.navbar a{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;/*text thick or thin*/
+    margin: 0 20px;/*create space around element*/
+    /*top bottom-0,left right 20px*/
+    border-bottom: 3px solid transparent;
+    /*transition: 0.3 ease;/*chnage the property smoothly given period of time*/
+
+}
+
+.navbar a:hover{
+    color:orangered;
+    border-bottom: solid orangered;
+}
+
+.navbar a.active{
+    color: orangered;
+}
