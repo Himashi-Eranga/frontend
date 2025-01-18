@@ -147,6 +147,51 @@ span{/*used to change the part of the text*/
 .image img{
     width: 500px;
     border-radius: 50%;
+    box-shadow: 0 0 25px orangered,
+    0 0 50px orangered;
+       
     
+
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap:8em;
+    background: black;
+   
+    
+
+}
+
+.about-img img{
+    position: relative;
+    width:500px;
+    margin-left: 5em;
+    border-radius: 50%;
+    box-shadow: 0 0 25px orangered,
+                0 0 50px orangered;
+                   
+}
+
+.heading{
+    color:white;
+    font-size: 42px;
+    text-align: left;
+}
+
+.about-content h3{
+    font-size: 62px;
+    color: white;
+}
+
+.about-content p{
+    color: white;
+    font-size: 20px;
+    margin: 25px 10px 40px;
+    
+    
+   
 
 }
