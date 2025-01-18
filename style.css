@@ -78,11 +78,11 @@ span{/*used to change the part of the text*/
 
 .home{
     width:100%;
-    min-height: 100vh;
+    min-height: 130vh;
     background: rgb(255, 255, 255);
     display: flex;
     align-items: center;
-    /* gap:7em; */
+    gap:7em;
     padding: 30px 12% 0;/*top-30px, right/left-12%,bottom-0*/
 
     
@@ -142,4 +142,11 @@ span{/*used to change the part of the text*/
 .btn-2:hover{
     background-color: white;
     color: orangered;
+}
+
+.image img{
+    width: 500px;
+    border-radius: 50%;
+    
+
 }
