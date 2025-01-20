@@ -226,3 +226,137 @@ span{/*used to change the part of the text*/
     margin: 1rem 0;
     resize: none;
 }
+
+/* .footer{
+    position: relative;
+    bottom:0;
+    width:100%;
+    padding: 40px 0;
+    background-color: black;
+}
+
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+}
+
+.footer .social a{
+    font-size: 24px;
+    color: white;
+    border: 2px sold orangered;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    box-shadow: inset 0 0 10px orangered, 0 0 10px orangered;
+    transition: 0.3s ease;
+
+}
+
+.footer .social a:hover{
+    transform: scale(1.2)translateY(-10px);
+    color: orangered;
+    border: 2px solid orangered;
+}
+
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+
+}
+
+.footer ul li a{
+    color:white;
+    border-bottom: 3px solid transparent;
+
+}
+
+.footer ul li a:hover{
+    border-bottom: 3px solid orangered;
+}
+
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+  */
+
+  .footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: black;
+}
+
+.footer .social {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between icons */
+    padding-bottom: 25px;
+}
+
+.footer .social a {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Ensure icon is vertically centered */
+    width: 50px; /* Width of the circular container */
+    height: 50px; /* Height of the circular container */
+    border-radius: 50%; /* Make the container a circle */
+    background-color: #000; /* Black background */
+    color: white; /* Icon color */
+    font-size: 28px; /* Icon size for better visibility */
+    box-shadow: 0 0 15px rgba(255, 69, 0, 0.7), 0 0 20px rgba(255, 69, 0, 0.5); /* Glowing effect */
+    text-decoration: none; /* Remove underline */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover animation */
+}
+
+.footer .social a:hover {
+    transform: scale(1.2); /* Slight zoom on hover */
+    box-shadow: 0 0 30px rgba(255, 69, 0, 1), 0 0 40px rgba(255, 69, 0, 0.8); /* Stronger glow on hover */
+    color: orangered;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 18px;
+    color: white;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+}
+
+.footer ul li a:hover {
+    border-bottom: 2px solid orangered;
+}
+
+.footer .copyright {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+
